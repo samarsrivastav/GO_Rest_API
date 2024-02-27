@@ -1,0 +1,7 @@
+go 1.22.0
+
+use (
+	./23mod
+	./24BuildApi
+	./25mongoApi
+)

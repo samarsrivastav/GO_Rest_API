@@ -1,4 +1,4 @@
-module github.com/samarsrivastav/GO_Rest_API
+module github.com/samarsrivastav/GO_crud_api
 
 go 1.22.0
 
