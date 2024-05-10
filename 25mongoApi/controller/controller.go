@@ -64,7 +64,7 @@ func insertOneMovie(movie model.Netflix) {
 func updateOneMovie(movieID string) {
 	id, _ := primitive.ObjectIDFromHex(movieID)
 	filter := bson.M{"_id": id}
-	update := bson.M{"$set": bson.M{"watcched": true}}
+	update := bson.M{"$set": bson.M{"watched": true}}
 
 	result, err := collection.UpdateOne(context.Background(), filter, update)
 	if err != nil {
